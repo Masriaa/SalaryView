@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 #--- Carregamento dos dados ---
-df = pd.read_csv("..\dadosPythonAlura\data-salarios.csv")
+df = pd.read_csv("data/processed/data-dashboard.csv")
 
 #- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
